@@ -1,12 +1,20 @@
-# React + Vite
+Some users may see a warning when visiting this deployed project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+“Some pages on this site are unsafe. Try to trick visitors into sharing personal info or downloading software.”
 
-Currently, two official plugins are available:
+Why this happens:
+This project is a Netflix clone built purely for learning and portfolio purposes. It mimics Netflix’s design, login page, and UI to practice frontend development. Google’s automated security systems may flag the login page as potentially unsafe because it resembles a credential collection page, even though this project does not collect or store real user data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Important:
 
-## Expanding the ESLint configuration
+-> All authentication is mocked using localStorage, and no real credentials are ever stored.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> This project is fully educational, safe to use, and does not contain any malware or harmful scripts.
+
+-> Please do not enter any real Netflix credentials — only use dummy accounts for testing.
+
+How to open this deployed URL:
+     Step1 : when you paste the deployed URL in google search bar you will get Dangerous site and two options. i) Details and ii) Back to safety
+                -> so click on Details.
+     Step2 : Then you will see "Only visit this unsafe site if you're sure you understand the risks." this line. click on "this unsafe site".
+     Step3 : So finally you get into my deployed website.
